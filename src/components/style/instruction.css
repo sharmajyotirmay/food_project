@@ -1,0 +1,62 @@
+
+.info_duration {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.vegetables_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.vegie {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spices_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.spice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appliance_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.appl_name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.instrument {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    width: 100px;
+    padding: 5px;
+}
+
+.instrument img {
+    width: 40px;
+}
+
+.instrument p {
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+    .ingredients_info {
+        margin: 100px;
+    }
+}

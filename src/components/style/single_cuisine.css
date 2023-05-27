@@ -1,0 +1,13 @@
+.all_cuisine {
+    border: 0.5px solid #BDBDBD;
+    border-radius: 17px;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .all_cuisine {
+        font-size: 32px;
+        padding: 5px 15px 5px 15px;
+        border-radius: 10px;
+    }
+}

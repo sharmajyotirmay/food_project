@@ -1,0 +1,48 @@
+.container_popular_dishes {
+    margin: 10px;
+}
+
+.pop_dishes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+    gap: 10px;
+}
+.pop_dishes::-webkit-scrollbar {
+    display: none;
+}
+.container_pop_dishes {
+    border: 1px solid #FF941A;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_pop_dishes > h3 {
+    font-size: 10px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .container_pop_dishes > h3 {
+        font-size: 18px;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .pop_dishes {
+        width: 100%;
+        gap: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container_pop_dishes {
+        min-width: 120px;
+        min-height: 120px;
+    }
+}

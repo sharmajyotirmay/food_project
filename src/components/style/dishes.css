@@ -1,0 +1,13 @@
+.container_dishes {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.container_dishes::-webkit-scrollbar {
+    display: none;
+}

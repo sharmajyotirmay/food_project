@@ -1,0 +1,43 @@
+/* change color after completion */
+
+.container_date {
+    display: flex;
+    min-width: 300px;
+    min-height: 63px;
+    background-color: bisque;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 10px;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.date {
+    display: flex;
+    gap: 2px;
+}
+
+.time {
+    display: flex;
+    gap: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .time, .date {
+        gap: 12px;
+    }
+    .time span {
+        font-size: 24px;
+    }
+    .time img {
+        width: 30px;
+    }
+    .date span {
+        font-size: 24px;
+    }
+    .date img {
+        width: 30px;
+    }
+}

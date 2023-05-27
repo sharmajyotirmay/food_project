@@ -1,0 +1,18 @@
+.container_cuisine {
+    display: flex;
+    height: fit-content;
+    justify-content: left;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 10px;
+    margin-left: 12px;
+}
+.container_cuisine::-webkit-scrollbar {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+    .container_cuisine {
+        gap: 50px;
+        margin-top: 2.5em;
+    }
+}
